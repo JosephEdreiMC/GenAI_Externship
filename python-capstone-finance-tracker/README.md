@@ -1,6 +1,9 @@
 This project consists of an expense tracker in the form of a dictionary.
+
 In the dictionary, the keys are 'categories' given to each transaction. Notice that a category can have multiple transactions but each transaction has a unique category.
+
 Inside each category, there is a list of expenses with the format (description, amount), each expense is defined as a tuple to impede being edited.
+
 The program allows using a predefined dictionary; otherwise, an empty dictionary is used. There are 4 actions that one can perform on the expense dictionary:
 - Add Expense (option 1): Provide a description, a category, and an amount to add as a record in the dictionary.
 - View All Expenses (option 2): It displays each transaction in the dictionary, ordered by category.
